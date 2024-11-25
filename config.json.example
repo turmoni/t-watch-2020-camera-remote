@@ -1,0 +1,19 @@
+{
+    "devices": {
+        "left": {
+            "driver": "GoPro",
+            "parameters": {
+                "name": "1234"
+            }
+        },
+        "right": {
+            "driver": "BanditCamera",
+            "parameters": {
+                "ssid": "BANDIT-AAA",
+                "password": "12345678"
+            },
+            "notify_on_stop": true
+        }
+    },
+    "button_press_start": "right"
+}
